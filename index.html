@@ -15,6 +15,29 @@
 
   <body>
     <div class="container">
+      <input type="checkbox" id="flip">
+
+      <!-- Imgens -->
+      <div class="cover">
+
+        <!-- Front -->
+        <div class="front">
+          <img src="./Images/frontImg.jpg" alt="">
+          <div class="text">
+            <span class="text-1">Todo novo amigo é uma<br> nova aventura</span>
+            <span class="text-2">Vamos nos conectar!</span>
+          </div>
+        </div>
+
+        <!-- Back -->
+        <div class="back">
+          <img class="backImg" src="./Images/backImg.jpg" alt="">
+          <div class="text">
+            <span class="text-1">Comece a sua jornada<br> com apenas um passo</span>
+            <span class="text-2">Vamos começar!</span>
+          </div>
+        </div>
+      </div>
       <form action="#">
         <div class="form-content">
           <!-- Form Login -->
@@ -40,7 +63,7 @@
                 <input type="submit" value="Submit">
               </div>
 
-              <div class="text">Não tem uma conta? <label for="">Inscreva-se!</label></div>
+              <div class="text sign-up-text">Não tem uma conta? <label for="flip">Inscreva-se!</label></div>
             </div>
           </div>
 
@@ -70,7 +93,7 @@
                 <input type="submit" value="Submit">
               </div>
 
-              <div class="text">Já possui uma conta? <label for="">Faça Login agora!</label></div>
+              <div class="text sign-up-text">Já possui uma conta? <label for="flip">Faça Login agora!</label></div>
             </div>
           </div>
         </div>
